@@ -125,7 +125,8 @@ function Compare(){
             title.innerHTML += '.'},1000);
         setTimeout(function(){
             title.innerHTML = `<p style = 'font-size: 40px ; font-weight:bold'><span style = 'color: rgba(218, 165, 32, 0.762)'>XO</span> GAME</p>`;
-            divs.forEach(Element => Element.innerHTML = '')
+            divs.forEach(Element => Element.innerHTML = '');
+            divs.forEach(Element => Element.style.background = '');
         },4000)
     }
    }
