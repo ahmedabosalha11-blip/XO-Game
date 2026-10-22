@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="XO Game.css">
+    <link rel="stylesheet" href="framework.css">
+    <script defer src="XO.js"></script>
+    <title>XO Game</title>
+</head>
+<body>
+    <header id="title">
+        <h1><span class="c-gold">XO</span> GAME</h1>
+    </header>
+    <div class="container">
+        <div class="one">
+            <div class="divs" onclick="Game(this.id);Compare(this.id)" id="item1"></div>
+            <div class="divs" onclick="Game(this.id);Compare(this.id)" id="item2"></div>
+            <div class="divs" onclick="Game(this.id);Compare(this.id)" id="item3"></div>
+        </div>
+        <div class="two">
+            <div class="divs" onclick="Game(this.id);Compare(this.id)" id="item4"></div>
+            <div class="divs" onclick="Game(this.id);Compare(this.id)" id="item5"></div>
+            <div class="divs" onclick="Game(this.id);Compare(this.id)" id="item6"></div>
+        </div>
+        <div class="three">
+            <div class="divs" onclick="Game(this.id);Compare(this.id)" id="item7"></div>
+            <div class="divs" onclick="Game(this.id);Compare(this.id)" id="item8"></div>
+            <div class="divs" onclick="Game(this.id);Compare(this.id)" id="item9"></div>
+        </div>
+       
+    </div>
+    <div class="main">
+        <div class="parent">
+            <div class="child"></div>
+        </div>
+        <p class="c-white" id="percent"></p>
+    </div>
+    <p class="loading">loading </p>
+</body>
+</html>

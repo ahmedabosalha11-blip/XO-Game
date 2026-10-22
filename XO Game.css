@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 100px;
+    height: 100vh;
+    background-color: #1a1a2e;
+}
+header{
+    background-color: rgb(85, 42, 165);
+    width: 80%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container{
+    width: 80%;
+    height: 60%;
+    font-size: 50px;
+    font-weight: 500px;
+    color: white;
+    
+}
+.one{
+    display: flex;
+    gap: 5px;
+}
+.one > div{
+    width: 150px;
+    height: 150px;
+    flex-grow: 1;
+    background-color:rgb(85, 42, 165) ;
+    cursor: pointer;
+    transition: .3s;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one > div:hover{
+    background-color:rgb(50, 7, 130) ;
+}
+.two{
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+.two > div{
+    width: 150px;
+    height: 150px;
+    flex-grow: 1;
+    background-color:rgb(85, 42, 165) ;
+    cursor: pointer;
+    transition: .3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.two > div:hover{
+    background-color:rgb(50, 7, 130) ;
+}
+.three{
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+.three > div{
+    width: 150px;
+    height: 150px;
+    flex-grow: 1;
+    background-color:rgb(85, 42, 165) ;
+    cursor: pointer;
+    transition: .3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.three > div:hover{
+    background-color:rgb(50, 7, 130) ;
+}
+
+
+.parent{
+    margin: 20px;
+    width: 300px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+            
+}
+.child{
+    width: 0;
+    height: 25px;
+    background-color: rgb(85, 42, 165);
+}
+.main{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin: auto;
+}
+.loading{
+    color: white;
+    position: absolute;
+    top: 570px;
+    font-size: 20px;
+    font-weight: bold;
+}
