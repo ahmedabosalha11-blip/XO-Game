@@ -50,8 +50,8 @@ function Game(id){
         turn = 'o';
         title.innerHTML = 'o turn';
         title.style.cssText = `
-            font-size: 50px;
-            font-weight: 500px;
+            font-size: 40px;
+            font-weight: bold;
         `
     }else if (turn == 'o' && div.innerHTML == ''){
         div.innerHTML = 'o';
@@ -73,7 +73,7 @@ function end (num1,num2,num3){
         }
         title.innerHTML += '.'},1000);
     setTimeout(function(){
-            title.innerHTML = `<h1 style = 'font-size: 30px'><span style = 'color: rgba(218, 165, 32, 0.762)'>XO</span> GAME</h1>`;
+            title.innerHTML = `<p style = 'font-size: 40px ; font-weight:bold'><span style = 'color: rgba(218, 165, 32, 0.762)'>XO</span> GAME</p>`;
             divs.forEach(Element => Element.innerHTML = '')
             divs.forEach(Element => Element.style.background = '')
         },4000)
@@ -124,7 +124,7 @@ function Compare(){
             }
             title.innerHTML += '.'},1000);
         setTimeout(function(){
-            title.innerHTML = `<h1 style = 'font-size: 30px'><span style = 'color: rgba(218, 165, 32, 0.762)'>XO</span> GAME</h1>`;
+            title.innerHTML = `<p style = 'font-size: 40px ; font-weight:bold'><span style = 'color: rgba(218, 165, 32, 0.762)'>XO</span> GAME</p>`;
             divs.forEach(Element => Element.innerHTML = '')
         },4000)
     }
